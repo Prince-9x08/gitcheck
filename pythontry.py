@@ -82,3 +82,16 @@ import math
 # sec=int(input("enter the no. of seconds: "))
 # print(f"it wil be {sec//3600} hours"
 #       f" {sec%60} minutes")
+'''---------------------------------------------------'''
+#program to check if number is =ve,-ve or  0 
+
+x=float(input("enter your number:"))
+
+if x>0 :
+    print("the number is positive")
+elif x==0 :
+    print("the number is zero")
+else :
+    print("the number is negative")
+
+print("thanks for using this ! ")

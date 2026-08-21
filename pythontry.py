@@ -106,26 +106,39 @@ import math
 
 # print("thanks  for using this program")
 '''===program to give grades based on marks==='''
-a=int(input("enter the student's marks:"))
+# a=int(input("enter the student's marks:"))
 
-if a>=90:
-    print("A")
-else:
-    if a>=80:
-        print("B")
+# if a>=90:
+#     print("A")
+# else:
+#     if a>=80:
+#         print("B")
+#     else:
+#         if a>=70:
+#             print("C")
+#         else:
+#             if a>=60:
+#                 print("D")
+#             else:
+#                 if a>=40:
+#                     print("f")
+    
+'''==program to check which num is bigger from the 3 given==='''
+
+num_1=int(input("give the first num:"))
+num_2=int(input("give the second num:"))
+num_3=int(input("give the third num:"))
+
+if num_1>num_2:
+    if num_1>num_3:
+        print(f"largest num is {num_1}")
     else:
-        if a>=70:
-            print("C")
-        else:
-            if a>=60:
-                print("D")
-            else:
-                if a>=40:
-                    print("f")
+        print(f"largest num is {num_3}")
+else:
+    if num_2>num_3:
+        print(f"largest num is {num_2}")
+    else:
+        print(f"largest num is {num_3}")
 
-            
-     
-
-
-
-       
+print("thanks for using the programme :)")
+    

@@ -85,13 +85,47 @@ import math
 '''---------------------------------------------------'''
 #program to check if number is =ve,-ve or  0 
 
-x=float(input("enter your number:"))
+# x=float(input("enter your number:"))
 
-if x>0 :
-    print("the number is positive")
-elif x==0 :
-    print("the number is zero")
-else :
-    print("the number is negative")
+# if x>0 :
+#     print("the number is positive")
+# elif x==0 :
+#     print("the number is zero")
+# else :
+#     print("the number is negative")
 
-print("thanks for using this ! ")
+# print("thanks for using this ! ")
+
+'''==program to find the number is even or odd=='''
+# num_1=float(input("enter your number:"))
+
+# if num_1 %2 ==0:
+#     print("the number is even")
+# else :
+#     print("the number is odd")
+
+# print("thanks  for using this program")
+'''===program to give grades based on marks==='''
+a=int(input("enter the student's marks:"))
+
+if a>=90:
+    print("A")
+else:
+    if a>=80:
+        print("B")
+    else:
+        if a>=70:
+            print("C")
+        else:
+            if a>=60:
+                print("D")
+            else:
+                if a>=40:
+                    print("f")
+
+            
+     
+
+
+
+       

@@ -125,20 +125,30 @@ import math
     
 '''==program to check which num is bigger from the 3 given==='''
 
-num_1=int(input("give the first num:"))
-num_2=int(input("give the second num:"))
-num_3=int(input("give the third num:"))
+# num_1=int(input("give the first num:"))
+# num_2=int(input("give the second num:"))
+# num_3=int(input("give the third num:"))
 
-if num_1>num_2:
-    if num_1>num_3:
-        print(f"largest num is {num_1}")
-    else:
-        print(f"largest num is {num_3}")
+# if num_1>num_2:
+#     if num_1>num_3:
+#         print(f"largest num is {num_1}")
+#     else:
+#         print(f"largest num is {num_3}")
+# else:
+#     if num_2>num_3:
+#         print(f"largest num is {num_2}")
+#     else:
+#         print(f"largest num is {num_3}")
+
+# print("thanks for using the programme :)")
+
+'''==a simple ATM check=='''
+y=int(input("enter your balance :"))
+x=int(input("enter the amount you want to withdraw :"))
+
+if x<=y :
+    print(f"withdraw successfull"
+          f" \namount withdrawn={x}")
 else:
-    if num_2>num_3:
-        print(f"largest num is {num_2}")
-    else:
-        print(f"largest num is {num_3}")
-
-print("thanks for using the programme :)")
-    
+    print(f"your account has insufficient funds"
+          f" \nbalance={y}")

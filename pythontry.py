@@ -143,12 +143,25 @@ import math
 # print("thanks for using the programme :)")
 
 '''==a simple ATM check=='''
-y=int(input("enter your balance :"))
-x=int(input("enter the amount you want to withdraw :"))
+# y=5000
+# x=int(input("enter the amount you want to withdraw :"))
 
-if x<=y :
-    print(f"withdraw successfull"
-          f" \namount withdrawn={x}")
-else:
-    print(f"your account has insufficient funds"
-          f" \nbalance={y}")
+# if x<=y :
+#     print(f"withdraw successfull"
+#           f" \namount withdrawn={[x]}"
+#            f"\nnew balance={[y-x]}")
+# else:
+#     print(f"your account has insufficient funds"
+#           f" \nbalance={[y]}")
+
+'''===traffic light==='''
+light_colour=input("enter the traffic light colour:")
+
+match light_colour:
+    case "red":
+        print("STOP!")
+    case "yellow":
+        print("BE READY!")
+    case "green":
+        print("YOU CAN GO!")
+        

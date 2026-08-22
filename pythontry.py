@@ -155,13 +155,38 @@ import math
 #           f" \nbalance={[y]}")
 
 '''===traffic light==='''
-light_colour=input("enter the traffic light colour:")
+# light_colour=input("enter the traffic light colour:")
 
-match light_colour:
-    case "red":
-        print("STOP!")
-    case "yellow":
-        print("BE READY!")
-    case "green":
-        print("YOU CAN GO!")
-        
+# match light_colour:
+#     case "red":
+#         print("STOP!")
+#     case "yellow":
+#         print("BE READY!")
+#     case "green":
+#         print("YOU CAN GO!")
+
+'''===printing sum of numbers from 1-100=== '''
+# total=0
+
+# for i in range(1,101,1):
+#     total=total+i
+#     print(total)
+    
+'''==only even numbers from 1 to 20 using continue=='''
+
+# for i in range(1,21,1):
+#     if i % 2 !=0:
+#         continue
+#     else:
+#         print(i)
+
+'''==checking if given num is prime=='''
+
+x=int(input("enter your number:"))
+
+for i in range(2,x):
+    if x % i == 0:
+        print(f"the number {[x]} is not prime number")
+        break
+else:
+     print(f"the number {[x]} is prime number")    
